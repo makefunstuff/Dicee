@@ -12,8 +12,6 @@
 		34DD618020D3D799003C1EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DD617E20D3D799003C1EB4 /* Main.storyboard */; };
 		34DD618220D3D79B003C1EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DD618120D3D79B003C1EB4 /* Assets.xcassets */; };
 		34DD618520D3D79B003C1EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DD618320D3D79B003C1EB4 /* LaunchScreen.storyboard */; };
-		34DD619020D3D79B003C1EB4 /* DiceeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD618F20D3D79B003C1EB4 /* DiceeTests.swift */; };
-		34DD619B20D3D79B003C1EB4 /* DiceeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD619A20D3D79B003C1EB4 /* DiceeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,8 @@
 		34DD618420D3D79B003C1EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DD618620D3D79B003C1EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DD618B20D3D79B003C1EB4 /* DiceeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DD618F20D3D79B003C1EB4 /* DiceeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeTests.swift; sourceTree = "<group>"; };
-		34DD619120D3D79B003C1EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DD619620D3D79B003C1EB4 /* DiceeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DD619A20D3D79B003C1EB4 /* DiceeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeUITests.swift; sourceTree = "<group>"; };
-		34DD619C20D3D79B003C1EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DD61A820D3E3C8003C1EB4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				34DD617920D3D799003C1EB4 /* Dicee */,
-				34DD618E20D3D79B003C1EB4 /* DiceeTests */,
-				34DD619920D3D79B003C1EB4 /* DiceeUITests */,
 				34DD617820D3D799003C1EB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,26 +96,9 @@
 				34DD618120D3D79B003C1EB4 /* Assets.xcassets */,
 				34DD618320D3D79B003C1EB4 /* LaunchScreen.storyboard */,
 				34DD618620D3D79B003C1EB4 /* Info.plist */,
+				34DD61A820D3E3C8003C1EB4 /* README.md */,
 			);
 			path = Dicee;
-			sourceTree = "<group>";
-		};
-		34DD618E20D3D79B003C1EB4 /* DiceeTests */ = {
-			isa = PBXGroup;
-			children = (
-				34DD618F20D3D79B003C1EB4 /* DiceeTests.swift */,
-				34DD619120D3D79B003C1EB4 /* Info.plist */,
-			);
-			path = DiceeTests;
-			sourceTree = "<group>";
-		};
-		34DD619920D3D79B003C1EB4 /* DiceeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				34DD619A20D3D79B003C1EB4 /* DiceeUITests.swift */,
-				34DD619C20D3D79B003C1EB4 /* Info.plist */,
-			);
-			path = DiceeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DD619020D3D79B003C1EB4 /* DiceeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DD619B20D3D79B003C1EB4 /* DiceeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
